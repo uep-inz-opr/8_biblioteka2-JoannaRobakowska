@@ -63,7 +63,7 @@ for i in range(int(n)):
     tytul = temp[1].strip()
     autor = temp[2].strip()
     if len(temp) > 3:
-        year = temp[3]
+        rok = temp[3]
         print(commands(command, tytul, autor, rok))
     else:
         print(commands(command, tytul, autor))
