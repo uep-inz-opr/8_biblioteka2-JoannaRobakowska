@@ -48,7 +48,7 @@ def commands(command, tytul, autor, rok=None):
         return False
 
     if command == 'dodaj':
-        return add(tytul, autor, rok)
+        return dodaj(tytul, autor, rok)
     elif command == 'wypozycz':
         if tytul not in ludzie:
             ludzie[tytul] = osoba(tytul)
