@@ -13,9 +13,9 @@ class osoba:
         self.ksiazki = {}
 
 
-    n = input()
-    ksiazki = {}
-    ludzie = {}
+n = input()
+ksiazki = {}
+ludzie = {}
 
 
 def commands(command, tytul, autor, rok=None):
