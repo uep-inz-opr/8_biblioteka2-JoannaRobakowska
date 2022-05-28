@@ -13,9 +13,9 @@ class osoba:
         self.ksiazki = {}
 
 
-n = input()
-ksiazki = {}
-ludzie = {}
+    n = input()
+    ksiazki = {}
+    ludzie = {}
 
 
 def commands(command, tytul, autor, rok=None):
@@ -41,7 +41,7 @@ def commands(command, tytul, autor, rok=None):
     def donate(imie, tytul):
         if imie in ludzie:
             if tytul in ludzie[imie].ksiazki:
-                ludzie[imie.wypozyczonych -= 1
+                ludzie[imie.wypozyczonych] -= 1
                 ksiazki[tytuly].quantity += 1
                 del ludzie[imie].ksiazki[tytul]
                 return True
